@@ -107,3 +107,28 @@ h1 {
 h3{
   font-weight: 400;
 }
+
+/**
+ * The container and the item are both
+ * into flex layout. To align items
+ * to each other.
+ */
+ .social-links,
+ .social-links li {
+   display: flex;
+   flex-direction: row;     /* make main axis horizontal (default setting) */
+    justify-content: center; /* center items horizontally, in this case */
+    align-items: center;  
+   padding: 0;
+   margin: 0;
+ }
+ 
+ /**
+  * Force to occupy the space available
+  * and allow item being on several lines
+  */
+ .social-links {
+   width: 100%;
+   list-style: none;
+   flex-wrap: wrap;
+ }
