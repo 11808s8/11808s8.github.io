@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 .neon{
   color:#fff;
 }
@@ -5,7 +7,6 @@
   color:#e0e0ce;
    -webkit-transition: text-shadow .2s, color .2s; /* Safari prior 6.1 */
   transition: text-shadow .2s, color .2s;
-/*   text-decoration:underline; */
 }
 
 .social-link {
@@ -25,12 +26,7 @@ text-decoration:none;
   text-shadow:
     1px 2px 2px #000,
     1px 2px 4px #000,
-    1px 2px 4px #000
-    ;
-/*     0 0 .1px #e0e0ce; */
-/*     0 0 .1px #e0e0ce,
-    0 0 .1px #e0e0ce,
-    0 0 .1px #e0e0ce; */
+    1px 2px 4px #000;
 } 
 
 .neon-subtext:hover{
@@ -46,17 +42,6 @@ text-decoration:none;
   color:#fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* general styling */
 :root {
   font-size: calc(1vw + 1vh + 1.5vmin);
 }
@@ -93,8 +78,6 @@ body {
   font-size: 1rem;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-
 h1,h3,h4,h5{
   text-align: center;
 }
@@ -110,24 +93,18 @@ h1,h3,h4,h5{
 }
 
 /**
- * The container and the item are both
- * into flex layout. To align items
- * to each other.
+ * Alinhar itens no FLEX
  */
  .social-links,
  .social-links li {
    display: flex;
-   flex-direction: row;     /* make main axis horizontal (default setting) */
-    justify-content: center; /* center items horizontally, in this case */
+   flex-direction: row;
+    justify-content: center;
     align-items: center;  
    padding: 0;
    margin-right: 1rem;
  }
  
- /**
-  * Force to occupy the space available
-  * and allow item being on several lines
-  */
  .social-links {
    width: 100%;
    list-style: none;
