@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
-.neon{
+.main-text{
   color:#fff;
 }
-.neon-subtext{
+.main-text-subtext{
   color:#e0e0ce;
    -webkit-transition: text-shadow .2s, color .2s; /* Safari prior 6.1 */
   transition: text-shadow .2s, color .2s;
@@ -22,14 +22,14 @@ text-decoration:none;
 	fill:#ff8a1a;
 }
 
-.neon, .neon-subtext {
+.main-text, .main-text-subtext {
   text-shadow:
     1px 2px 2px #000,
     1px 2px 4px #000,
     1px 2px 4px #000;
 } 
 
-.neon-subtext:hover{
+.main-text-subtext:hover{
   text-shadow:
     1px 2px 2px #000,
     1px 2px 4px #000,
@@ -86,7 +86,7 @@ h1,h3,h4,h5{
   font-weight: 400;
 }
 
-.neon-subtext a{
+.main-text-subtext a{
   text-decoration: none;
   color:#e0e0ce;
 }
