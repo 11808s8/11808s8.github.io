@@ -60,8 +60,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   background-color: #04080f;
-/*   background-color: #fff; */
-  background-image: url("https://www.transparenttextures.com/patterns/outlets.png");
+  background-image: url("../images/background-pattern.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
