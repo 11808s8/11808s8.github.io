@@ -124,3 +124,10 @@ h5 {
    list-style: none;
    flex-wrap: wrap;
  }
+
+ @media (max-width: 700px) {
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+}
