@@ -21,10 +21,23 @@ function cssMinify(){
     .pipe(gulp.dest('../assets/css/'))
 }
 
-const build = gulp.series(buildPartials, cssMinify);
+function cssMinifyNoConcat(){
+    return gulp.src('./view/css/templates/*.css')
+    .pipe(minifyCss())
+    .pipe(gulp.dest('../assets/css/'))
+}
+
+function watch(){
+    gulp.watch('./view/css/*.css', cssMinify);
+    gulp.watch('./view/css/templates/*.css', cssMinifyNoConcat);
+    gulp.watch('./view/html/**/*.html', buildPartials);
+}
+
+const build = gulp.series(buildPartials, cssMinifyNoConcat, cssMinify);
   
 // task exporting!
 exports.buildPartials = buildPartials;
 exports.cssMinify = cssMinify;
 exports.build = build;
 exports.default = build;
+exports.watch = gulp.series(build, watch);
