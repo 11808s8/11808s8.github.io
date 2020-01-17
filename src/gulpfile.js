@@ -1,7 +1,6 @@
 const injectPartials = require('gulp-inject-partials');
 const gulp = require('gulp');
 const minifyCss = require('gulp-minify-css')
-const rename = require('gulp-rename');
 const concat = require('gulp-concat');
 
 /**
@@ -18,7 +17,7 @@ function buildPartials() {
 function cssMinify(){
     return gulp.src('./view/css/*.css')
     .pipe(minifyCss())
-    .pipe(rename('style.min.css'))
+    .pipe(concat('style.min.css'))
     .pipe(gulp.dest('../assets/css/'))
 }
 

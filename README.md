@@ -12,7 +12,6 @@ Using github pages to deploy! :D
         * gulp-concat: ^2.6.1
         * gulp-inject-partials: ^1.0.5
         * gulp-minify-css: ^1.2.4
-        * gulp-rename: ^2.0.0
 ### Workflow
 run `$ npm install` at your first run, then, after changes, run `$ gulp` inside the directory `./src/` and you're done.
 
