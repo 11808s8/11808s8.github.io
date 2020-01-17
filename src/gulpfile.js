@@ -1,5 +1,8 @@
 const injectPartials = require('gulp-inject-partials');
 const gulp = require('gulp');
+const minifyCss = require('gulp-minify-css')
+const rename = require('gulp-rename');
+const concat = require('gulp-concat');
 
 /**
  * Task for building partials of every .html file into /view/
@@ -12,9 +15,17 @@ function buildPartials() {
     .pipe(gulp.dest('../'));
 };
 
-const build = gulp.series(buildPartials);
+function cssMinify(){
+    return gulp.src('./view/css/*.css')
+    .pipe(minifyCss())
+    .pipe(rename('style.min.css'))
+    .pipe(gulp.dest('../assets/css/'))
+}
+
+const build = gulp.series(buildPartials, cssMinify);
   
 // task exporting!
 exports.buildPartials = buildPartials;
+exports.cssMinify = cssMinify;
 exports.build = build;
 exports.default = build;
