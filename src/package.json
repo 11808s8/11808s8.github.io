@@ -9,6 +9,7 @@
   "author": "11808s8",
   "license": "ISC",
   "devDependencies": {
+    "gulp-concat": "^2.6.1",
     "gulp-inject-partials": "^1.0.5"
   }
 }
