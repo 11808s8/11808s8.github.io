@@ -1,0 +1,14 @@
+{
+  "name": "11808s8.github.io",
+  "version": "1.0.0",
+  "description": "Adriano's (github.com/11808s8) personal website.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "11808s8",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-inject-partials": "^1.0.5"
+  }
+}
