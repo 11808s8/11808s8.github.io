@@ -11,5 +11,10 @@ function buildPartials() {
      }))
     .pipe(gulp.dest('../'));
 };
+
+const build = gulp.series(buildPartials);
   
+// task exporting!
 exports.buildPartials = buildPartials;
+exports.build = build;
+exports.default = build;
