@@ -8,7 +8,7 @@ const concat = require('gulp-concat');
  * Task for building partials of every .html file into /view/
  */
 function buildPartials() {
-    return gulp.src('./view/*.html')
+    return gulp.src('./view/html/templates/**/*.html')
     .pipe(injectPartials({
         removeTags: true
      }))
