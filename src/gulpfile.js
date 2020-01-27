@@ -21,6 +21,11 @@ function cssMinify(){
     .pipe(gulp.dest('../assets/css/'))
 }
 
+function jsNoConcat(){
+    return gulp.src('./view/js/**/*.js')
+    .pipe(gulp.dest('../assets/js'));
+}
+
 function cssMinifyNoConcat(){
     return gulp.src('./view/css/templates/*.css')
     .pipe(minifyCss())
@@ -30,10 +35,12 @@ function cssMinifyNoConcat(){
 function watch(){
     gulp.watch('./view/css/*.css', cssMinify);
     gulp.watch('./view/css/templates/*.css', cssMinifyNoConcat);
+    gulp.watch('./view/js/**/*.js',jsNoConcat);
     gulp.watch('./view/html/**/*.html', buildPartials);
+    
 }
 
-const build = gulp.series(buildPartials, cssMinifyNoConcat, cssMinify);
+const build = gulp.series(buildPartials, jsNoConcat, cssMinifyNoConcat, cssMinify);
   
 // task exporting!
 exports.buildPartials = buildPartials;
