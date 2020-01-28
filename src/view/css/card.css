@@ -34,7 +34,7 @@
 
 /* Flexbox stuff */
 
-.cards {
+#cards {
     display: flex;
     flex-wrap: wrap;
  }
