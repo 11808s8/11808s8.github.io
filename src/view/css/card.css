@@ -21,26 +21,25 @@
 .card-content {
 	padding: 1.4em;
 }
-
-.card-content h5 {
+.card-content h2 {
 	margin-top: 0;
 	margin-bottom: .5em;
 	font-weight: bold;
 }
-
+/* 
 .card-content p {
 	font-size: 50%;
-}
+} */
 
 /* Flexbox stuff */
 
-#cards {
+/* #cards {
     display: flex;
     flex-wrap: wrap;
- }
+ } */
 
 .card {
-    flex: 1 0 800px;
+    /* flex: 1 0 800px; */
     box-sizing: border-box;
     margin: 1rem .5em;
     /* height:200px; */
@@ -59,10 +58,10 @@
         max-width: calc(33% - 1em);
         flex-basis:800px;
     } */
-    input {
+    /* input {
         width: calc(100% - 1em);
     
-    }
+    } */
 }
 
 .centered {
