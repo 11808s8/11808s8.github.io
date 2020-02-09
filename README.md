@@ -25,6 +25,10 @@ Css files are minified and concatenated for production purposes.
 <br>
 Any questions send to adrianogsss@gmail.com  :D
 
+### Misc
+
+Project using the [Milligram Framework](https://milligram.io/) for responsive css
+
 ## License
 [MIT License](https://github.com/11808s8/11808s8.github.io/blob/master/LICENSE)
 
