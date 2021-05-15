@@ -1,5 +1,5 @@
 # baseURL = "https://example.com"
-baseURL = "/"
+baseURL = "blog.adrianogs.com"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Adriano Gomes Blog"
