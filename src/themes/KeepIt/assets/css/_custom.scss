@@ -116,9 +116,20 @@
       align-items: center;
     }
 
-    
+    @media only screen and (max-device-width: 320px) {
+      .navbar-mobile{
+        a{
+          font-size: 0.7em !important;
+        }
+      }
+    }
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      .navbar-mobile{
+        a{
+          font-size: 0.9em;
+        }
+      }
       .description {
         .name{
           font-size: 1.5em;
