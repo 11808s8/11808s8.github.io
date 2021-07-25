@@ -1,35 +1,19 @@
 # Personal Website
 
-Project of my [personal website](11808s8.github.io).<br>
+Project of my [personal website](11808s8.github.io) leveraging [Hugo](https://gohugo.io/) and a custom version of [theme KeepIt](https://github.com/Fastbyte01/KeepIt). To view the old version of the website (and its templating system leveraging gulp + pure html/css/js, go to the [old_version folder](old_version/).  
 Using github pages to deploy! :D
 
 ## Development 
 ### Requirements
-* npm
-    (to build and deploy)
-* [gulp](https://github.com/gulpjs/gulp): ^4
-    * gulp-plugins:
-        * gulp-concat: ^2.6.1
-        * gulp-inject-partials: ^1.0.5
-        * gulp-minify-css: ^1.2.4
-### Workflow
-run `$ npm install` at your first run, then, after changes, run `$ gulp` inside the directory `./src/` and you're done.
+* Hugo
 
-### Project Structure
-
-.html files use partials, emulating a templating engine, but using [gulp-inject-partials](https://github.com/meeroslav/gulp-inject-partials). <br>Partials start with an underscore and are located into the `./src/html/partial` folder. <br>Favor reusable code instead of hardcoding entire pages.
-<br>
-gulpfile.js follows the latest [task creating syntax](https://gulpjs.com/docs/en/getting-started/creating-tasks).
-<br>
-Css files are minified and concatenated for production purposes.
-<br>
-Any questions send to adrianogsss@gmail.com  :D
-
-### Misc
-
-Project using the [Milligram Framework](https://milligram.io/) for responsive css
+### Workflow to have it running locally
+run `$ ./hugome` from the root folder to have a working version of the website locally. The config.toml might need to be changed to reflect the local root dir ( which is "/").  
+For more on the development itself, check the documentation of [Hugo](https://gohugo.io/) and the theme in use.
 
 ## License
 [MIT License](https://github.com/11808s8/11808s8.github.io/blob/master/LICENSE)
 
-Copyright (c) 2020 Adriano Gomes da Silva
+Copyright (c) 2021 Adriano Gomes da Silva
+
+Any questions send to adrianogsss@gmail.com  :D
