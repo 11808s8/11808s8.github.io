@@ -1,0 +1,235 @@
+// ==============================
+// Custom style
+// ==============================
+// You can override the variables in _variables.scss to customize the style
+
+
+    .custom-icon {
+    
+      padding: 0;
+      fill: $light-font-color;
+        &:hover {
+        
+          background-color: transparent;
+          fill: $light-global-link-hover-color;
+        }
+      
+    }
+
+    
+
+    .link-custom-icon{
+      padding:0px !important;
+    }
+
+    .intro {
+      transform: none !important;
+      align-items: center;
+      justify-content: center
+    }
+
+    .name{
+      font-size: 2em;
+    }
+
+    #old-position{
+      font-size: 1.5em;
+    }
+
+    #current-position{
+      font-size: 1.85em;
+    }
+
+    .current-workplace{
+      font-size: 1.5em;
+    }
+
+    h2.description{
+      font-size: 1.7em;
+      
+      text-shadow: 1px 2px 4px #000000;
+    }
+
+    body {
+      
+      background-image: url("/images/background-pattern.png");
+      
+      
+
+     .footer{
+       .copyright{
+        // font-size: 8px;
+       }
+     }
+    }
+
+    a:hover{
+      text-shadow: .5px .5px .5px #000000;
+    }
+
+    .dark-theme {
+      background-color: #04080f;
+      .custom-icon {
+        line-height: 1.8em;
+      
+  
+        fill: $dark-font-color;
+        text-decoration: none;
+        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+  
+          &:hover {
+          
+            background-color: transparent;
+            fill: $dark-global-link-hover-color;
+
+            color: $dark-global-link-hover-color;
+            text-decoration: none;
+            transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+          }
+        
+      }
+   }
+
+    .social-links {
+      .custom-icon {
+        width: 1em;
+      }
+
+      .iconfont {
+        font-size: 2.5em;
+      }
+    }
+
+    .copyright {
+      & .social-links {
+        width: 0.5em;
+      }
+    }
+
+    .menu-item {
+      font-size: 1.2em;
+    }
+    
+    .main-intro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      .description {
+        .name{
+          font-size: 1.5em;
+          line-height: 1.1em;
+        }
+
+    
+        #current-position{
+          font-size: 1.35em;
+        }
+    
+        .current-workplace{
+          font-size: 1.1em;
+        }
+      }
+
+      #old-position{
+        font-size: 1.1em;
+      }
+
+      .navbar-mobile .container {
+        line-height: 5.0em;
+      }
+      
+    }
+
+
+    #mc_embed_signup{
+
+      margin-top: 5rem;
+      border-top: 1px solid $light-border-color !important;
+      border-bottom: 1px solid $light-border-color !important;
+      // background: $light-background-color !important;
+      background: none !important;
+
+      clear:left;
+      width:100%;
+
+      .dark-theme & {
+        // background: $dark-background-color !important;
+        // opacity: 0.7; 
+        // border-width: 1px;
+        // border-style: solid;
+        // border-color: $dark-border-color;
+        
+
+        border-top: 1px solid $dark-border-color;
+        border-bottom: 1px solid $dark-border-color;
+      }
+
+      
+
+      input.email {
+        border: 1px solid $light-border-color !important;
+
+        .dark-theme &{
+          border: 1px solid $dark-border-color !important;
+        }
+      }
+      
+      #mce-EMAIL {
+        color: $light-font-color !important;
+        background: none !important;
+        border-radius: 0;
+
+        .dark-theme & {
+          color: $dark-font-color !important;
+        }
+      }
+
+      .button{
+        border-radius: 0 !important;
+        
+        background-color: $light-background-color !important;
+        border-width: 1px;
+        border-style: solid;
+        border-color: $light-border-color !important;
+        color: $light-font-color !important;
+        .dark-theme & {
+          color: $dark-font-color;
+          background-color: $dark-background-color;
+          border-color: $dark-border-color;
+        }
+        
+      }
+    }
+
+    
+
+    .post-warp .post-copyright {
+      margin-top: 1.5rem;
+    }
+
+    .projects-title {
+      padding-bottom: 0em;
+    }
+
+    .retract {
+      cursor: pointer;
+      
+      h2:hover{
+        text-decoration:underline;
+      }
+      
+      ul {
+        display:none;
+      }
+    }
+    // .post-content.projects  {
+    //   h1,h2,h3,h4,h5.h6 {
+    //     padding-top: 0em;
+    //   }
+      
+    // }

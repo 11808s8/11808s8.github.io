@@ -1,0 +1,5 @@
+#!/bin/bash
+# THEME=$1;
+THEME=$(grep "theme" config.toml | cut -d= -f2); # this will grab the theme name from the config.toml file in the same directory
+HUGO_ENV=production hugo --gc --minify -d ../;
+hugo server -DE --theme $THEME;

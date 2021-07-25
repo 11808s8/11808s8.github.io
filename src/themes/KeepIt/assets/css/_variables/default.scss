@@ -1,0 +1,46 @@
+/** light theme **/
+
+$light-background-color: #fff;
+
+$light-font-color: #161209;
+$light-font-secondary-color: #1d1a14;
+
+$light-navbar-active-color: #161209;
+
+$light-global-link-color: #161209;
+// $light-global-link-hover-color:#2d96bd;
+$light-global-link-hover-color: #f7b900;
+
+// $light-post-link-color: #2d96bd;
+$light-post-link-color: $light-global-link-hover-color;
+$light-post-link-hover-color:#ef3982;
+
+$light-pagination-link-color : $light-global-link-hover-color;
+$light-pagination-link-active-color: #000;
+
+$light-border-color: #1d1a14;
+
+
+
+/** dark theme **/
+
+$dark-background-color: #292a2d;
+
+$dark-font-color: #a9a9b3;
+$dark-font-secondary-color: #87878d;
+
+$dark-navbar-active-color: #fff;
+
+$dark-global-link-color: #a9a9b3;
+// $dark-global-link-hover-color:#fff;
+$dark-global-link-hover-color: $light-global-link-hover-color;
+
+$dark-post-link-color: #eee;
+// $dark-post-link-hover-color:#fff;
+$dark-post-link-hover-color: $light-global-link-hover-color;
+
+$dark-pagination-link-color : #a9a9b3;
+// $dark-pagination-link-active-color: #fff;
+$dark-pagination-link-active-color: $light-global-link-hover-color;
+
+$dark-border-color: #4a4b50;

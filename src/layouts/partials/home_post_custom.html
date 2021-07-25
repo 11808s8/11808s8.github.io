@@ -1,0 +1,24 @@
+{{ $data := .Data }}
+<div class="intro" style="transform: none;">
+    {{ $cdn_url := .Scratch.Get "cdn_url" }}
+    {{ with .Site.Params.avatar}}
+    {{ $avatar := .}}
+    <div class="avatar">
+        <a href="/about"> <img src="{{ (printf "%s%s" $cdn_url $avatar)}}"> </a>
+    </div>
+    {{ end }}
+    {{/*  {{ if .Site.Params.subtitle}}  */}}
+    <h2 class="description">
+        <span class="name"><a  href="/about" target="_blank">Adriano Gomes da Silva</a></span>
+
+        <p> <span id="current-position">Cloud Architect</span> </br> at </br> <a class="social-link current-workplace" href="https://www.missioncloud.com/" target="_blank">Mission</a></h2>  
+        <p id="old-position"> Previously: Full Stack Lead Software Developer <br> at <a class="social-link" href="https://www.ucs.br/site/isam/isam-sistema-de-informaces-ambientais-sia/" target="_blank">ISAM - UCS</a></p>
+{{/*  
+        <p>| Principal Software Engineer / SRE / Team Lead | <a href="https://thanos.io">Thanos</a> co-author | <a href="https://prometheus.io">Prometheus</a> maintainer 📈 |</p>
+        <p>| CNCF <a href="https://github.com/cncf/sig-observability#tech-lead">SIG Observability Tech Lead</a> | Go & open source enthusiast | <a href="posts/">Blogger</a> | Volleyball player 🏐 |</p>  */}}
+    </h2>
+    {{/*  {{ end }}  */}}
+    <div class="social-links">
+      {{ partial "social.html" . }}
+    </div>
+</div>
