@@ -1,4 +1,79 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Adriano Gomes - Cloud Architect/Developer on Adriano Gomes - Cloud Architect/Developer</title><link>https://adrianogs.com/</link><description>Recent content in Adriano Gomes - Cloud Architect/Developer on Adriano Gomes - Cloud Architect/Developer</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 22 May 2021 23:01:21 -0700</lastBuildDate><atom:link href="https://adrianogs.com/" rel="self" type="application/rss+xml"/><item><title>Posts</title><link>https://adrianogs.com/posts/</link><pubDate>Sat, 22 May 2021 23:01:21 -0700</pubDate><guid>https://adrianogs.com/posts/</guid><description/></item><item><title>The Person Behind the Curtain</title><link>https://adrianogs.com/about/</link><pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate><guid>https://adrianogs.com/about/</guid><description>&lt;p>Currently a Cloud Operations Architect at Mission Cloud, focusing on AWS related services and tasks ranging from DevOps to Linux/Windows admin tasks (and automating them with Python and/or &lt;em>other tools/languages&lt;/em>), with a plethora of different loads inbetween.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Adriano Gomes - Cloud Architect/Developer on Adriano Gomes - Cloud Architect/Developer</title><link>https://adrianogs.com/</link><description>Recent content in Adriano Gomes - Cloud Architect/Developer on Adriano Gomes - Cloud Architect/Developer</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 22 May 2021 23:01:21 -0700</lastBuildDate><atom:link href="https://adrianogs.com/" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>https://adrianogs.com/projects/</link><pubDate>Tue, 06 Jul 2021 07:13:24 -0700</pubDate><guid>https://adrianogs.com/projects/</guid><description>&lt;hr>
+&lt;p>Professional and Personal projects of all sorts, separated by category.&lt;/p>
+&lt;h3 id="categories">Categories&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#aws">AWS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#sysadmin">SysAdmin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#software-development">Software Development&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#academic-writing">Academic Writing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#academic-presentations">Academic Presentations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#creative-writing">Creative Writing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#game-development">Game Development&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Click on any of the titles to expand its content.&lt;/p>
+&lt;div class="retract">
+&lt;h2 id="aws">AWS&lt;/h2>
+&lt;ul>
+&lt;li>Mostly NDA so far.&lt;/li>
+&lt;li>&lt;a href="https://gist.github.com/11808s8/ef00edb98867d490742755f1887695ad">EC2 User Data to set up a Wordpress/LEMP stack&lt;/a> - Wordpress + LEMP setup to be used alongside spinning new EC2 instances in AWS&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;div class="retract">
+&lt;h2 id="sysadmin">SysAdmin&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gist.github.com/11808s8/f1c590e5bf1f7085f013d2575cfb10b8">Local Git Updater Script&lt;/a> - Shellscript to automatically run git update for a specified folder.&lt;/li>
+&lt;li>&lt;a href="https://gist.github.com/11808s8/dc1ac5625f1d73b62a7f7318f3cf02d8">Remote project updater&lt;/a> - RSYNC shellscript to update remote repos in a somewhat CI way.&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;div class="retract">
+&lt;h2 id="software-development">Software Development&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://siambiental.ucs.br/">Environmental GIS&lt;/a> - Contributions while working at UCS. PHP, JS, NodeJS, PostgreSQL, MySQL + SysAdmin work (CentOS, CI).&lt;/li>
+&lt;li>&lt;a href="https://siambiental.ucs.br/congresso/">System for the International Congress of Technology for the Environment&lt;/a> - Revamping the project while at UCS. PHP, JS, PostgreSQL, MySQL.&lt;/li>
+&lt;li>&lt;a href="https://siambiental.ucs.br/intermediador/">Hydrological Cycle modeling system based on open data&lt;/a> - Oversaw the project while at UCS. PHP, JS, PostgreSQL, Datawarehouse modeling + hidrological models implementation and testing.&lt;/li>
+&lt;li>&lt;a href="https://github.com/11808s8/python-twitter-data-analysis-hp-lovecraft-tales">Data Analysis of a Twitter sample for comparison regarding five H.P. Lovecraft Tales&lt;/a> - Made using scrapping a sample from Twitter, leveraging Python, storing its cryptographed (AES 256) data in MongoDB.&lt;/li>
+&lt;li>&lt;a href="https://github.com/11808s8/frases-famosas-scrapper">Famous Quotes Scraping project&lt;/a> - Python/PostgreSQL web scraping project for extracting portuguese citations of famous thinkers. Mostly made using Python modules BeautifulSoup, Alembic and SQLAlchemy.&lt;/li>
+&lt;li>&lt;a href="https://github.com/11808s8/8-puzzle-backtracking-solver">8 Puzzle Backtracking Solver&lt;/a> - Language C 8 puzzle solver using backtracking.&lt;/li>
+&lt;li>&lt;a href="https://github.com/11808s8/consultor-financeiro-prolog">Prolog Finance Consulting program&lt;/a> - Application leveraging the Prolog language and prolog charts for financial planing.&lt;/li>
+&lt;li>&lt;a href="https://github.com/11808s8/PyCaxias">PyCaxias 2020 website&lt;/a> - Forked contributions using JavaScript and Python&amp;rsquo;s Pelican made website for the 2020&lt;/li>
+&lt;li>&lt;a href="https://github.com/11808s8/Python-Packet-Sniffer">Packet Sniffer in Python&lt;/a> - Linux/Windows IPV4/IPV6 multiprotocol packet sniffer fork implementing different protocols and revamping the codebase.&lt;/li>
+&lt;li>&lt;a href="https://github.com/11808s8/2019-2-Projeto-de-Software-INF0235A">Financial Education System in Wagtail&lt;/a> - Made with Python&amp;rsquo;s CMS Wagtail. Also has a blog, aside from a financial calculator for self finance planning.&lt;/li>
+&lt;li>&lt;a href="https://github.com/11808s8/turismop5">Tourism Management WebApp&lt;/a> - Django/Postgis Python and PostgreSQL tourism/tourism professional management system.&lt;/li>
+&lt;li>&lt;a href="https://github.com/11808s8/python-neural-network">Backpropagation Neural Network for recognizing ASCII coded chars&lt;/a> - Python + ROC Curve, matplotlib (yes, it does plot graphs), sigmoid activation neural network. &lt;a href="https://github.com/11808s8/python-neural-network/blob/master/artifacts/Analise%20Rede%20Neural.pdf">Presentation of the project&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/11808s8">More can be found on both github&lt;/a>&lt;a href="https://gitlab.com/11808s8"> and also gitlab&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;div class="retract">
+&lt;h2 id="academic-writing">Academic Writing&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://lattes.cnpq.br/9796517738655066">Academic papers and ebook chapters that I&amp;rsquo;ve figured in can be found over here.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;div class="retract">
+&lt;h2 id="academic-presentations">Academic Presentations&lt;/h2>
+&lt;ul>
+&lt;li>They are mainly linked in the academic writing link but I plan on adding them here sometime in the future.&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;div class="retract">
+&lt;h2 id="creative-writing">Creative Writing&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="www.alberguesepia.com.br">www.alberguesepia.com.br&lt;/a> - Mainly where my portuguese (BR) poems can be found, under the pseudonym Heitor Costa. Works derived from those poems (or that inspired them) can also be found there. There are far too many to list over here, so I&amp;rsquo;ll leverage that as a hub to direct you :D.&lt;/li>
+&lt;li>&lt;a href="https://www.recantodasletras.com.br/autor.php?id=191155">Recanto das Letras profile&lt;/a> - Another hub where a collection of these poems (and short stories) can be found.&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;div class="retract">
+&lt;h2 id="game-development">Game Development&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://2am.itch.io/elipse">Elipse&lt;/a> - A point-n-click game developed using Phaser 3 (Typescript + NodeJS), published in both English and Portuguese. Its music was composed using Ableton and visuals were made in Aseprite.&lt;/li>
+&lt;li>&lt;a href="https://11808s8.itch.io/shelled">Shelled&lt;/a> - A game developed using the bitsy engine and hacks for the engine. Made for the Snails Bitsy Jam. Visuals made with Aseprite and music composed on BeepBox.&lt;/li>
+&lt;li>&lt;a href="https://11808s8.itch.io/state">State&lt;/a> - A game developed using the bitsy engine and hacks for the engine. Made for the One Room Bitsy Jam. Visuals made with Aseprite and music composed on BeepBox&lt;/li>
+&lt;li>&lt;a href="https://11808s8.itch.io/flipsy">Flipsy&lt;/a> - A pure javascript tool developed for flipping bitsy engine rooms.&lt;/li>
+&lt;li>&lt;a href="https://mayara-cechinatto.itch.io/together-we-are-strong">Together We Are Strong&lt;/a> - Sound design for this one, mostly on Ableton 9 as well.&lt;/li>
+&lt;li>&lt;a href="https://github.com/11808s8/2048-assembly">2048 Assembly&lt;/a> - A 2048 clone made using i8086 Assembly.&lt;/li>
+&lt;/ul>
+&lt;/div></description></item><item><title>Posts</title><link>https://adrianogs.com/posts/</link><pubDate>Sat, 22 May 2021 23:01:21 -0700</pubDate><guid>https://adrianogs.com/posts/</guid><description/></item><item><title>The Person Behind the Curtain</title><link>https://adrianogs.com/about/</link><pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate><guid>https://adrianogs.com/about/</guid><description>&lt;p>Currently a Cloud Operations Architect at Mission Cloud, focusing on AWS related services and tasks ranging from DevOps to Linux/Windows admin tasks (and automating them with Python and/or &lt;em>other tools/languages&lt;/em>), with a plethora of different loads inbetween.&lt;/p>
 &lt;p>I&amp;rsquo;m also a web developer, from my previous life and spare time, having worked with PHP, JS (Node and TS), Python, PostgreSQL, MongoDB, MySQL and so on.&lt;/p>
 &lt;p>Pretty sure most of it is covered in my &lt;a href="https://linkedin.com/in/adrianogs">Linkedin Profile&lt;/a>, so lets use that for the sake of DRY, right? Right on!&lt;/p>
 &lt;p>This page is currently a big draft so only time will tell what&amp;rsquo;ll be around here.&lt;/p>

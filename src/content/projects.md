@@ -3,7 +3,7 @@ author: "Adriano Gomes"
 title: "Projects"
 linktitle: "Projects"
 date: 2021-07-06T07:13:24-07:00
-draft: true
+draft: false
 layout: projects
 menu:
   main:
