@@ -8,7 +8,7 @@ Using github pages to deploy! :D
 * Hugo
 
 ### Workflow to have it running locally
-run `$ ./hugome` from the root folder to have a working version of the website locally. The config.toml might need to be changed to reflect the local root dir ( which is "/").  
+Access the **src** folder and run `$ ./hugome` to have a working version of the website locally and also generate its files to the root directory (where github pages will run the static files). The config.toml might need to be changed to reflect the local root dir ( which is "/").  
 For more on the development itself, check the documentation of [Hugo](https://gohugo.io/) and the theme in use.
 
 ## License
